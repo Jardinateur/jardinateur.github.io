@@ -1,5 +1,7 @@
-Title: Les travaux de construction reprennent à Eden
-Category: Minecraft
+layout: post
+title: Les travaux de construction reprennent à Eden
+category: minecraft
+published: true
 ----------------
 
 C'est officiel, les travaux ont enfin repris depuis la nuit dernière et c'est sans regret que le Roi a annoncé toute une série de mesures visant à éloigner les Creepers du royaume et des villages autour.
