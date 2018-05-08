@@ -2,7 +2,7 @@
 layout: post
 title: Les travaux de planification du territoire débutent à Edensland
 date: 2018-04-10
-category: minecraft
+category: Edensland
 published: true
 ---
 

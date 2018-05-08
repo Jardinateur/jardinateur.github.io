@@ -2,7 +2,7 @@
 layout: post
 title: La construction d'un royaume à Eden
 date: 2018-05-08
-category: minecraft
+category: Edensland
 published: true
 ---
 
