@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Les travaux de construction reprennent à Eden
+title: Les travaux de planification du territoire débutent à Edensland
 date: 2018-04-10
 category: minecraft
 published: true
