@@ -71,8 +71,8 @@
             </div>
 
             <div class="posts">
-                {% for post in site.posts %}
                 <h1 class="content-subhead">Articles récents</h1>
+                {% for post in site.posts %}
 
                 <section class="post">
                     <header class="post-header">
@@ -81,7 +81,7 @@
                         <a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
-                            Par <a class="post-author" href="#">{{ site.author}} </a> sous <a class="post-category post-category-js" href=#>{{ page.post.categories }}</a>
+                            Par {{ site.author }} sous <a class="post-category post-category-js" href=#>{{ page.post.categories }}</a>
                         </p>
                     </header>
 
