@@ -25,16 +25,10 @@
 </head>
 <body>
 
-
-
-
-
-
-
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
-            <h1 class="brand-title">A Sample Blog</h1>
+            <h1 class="brand-title">{{site.title}}</h1>
             <h2 class="brand-tagline">Creating a blog layout using Pure</h2>
 
             <nav class="nav">
@@ -77,13 +71,14 @@
             </div>
 
             <div class="posts">
+                {% for post in site.posts %}
                 <h1 class="content-subhead">Recent Posts</h1>
 
                 <section class="post">
                     <header class="post-header">
                         <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar" src="img/common/ericf-avatar.png">
 
-                        <h2 class="post-title">Everything You Need to Know About Grunt</h2>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
                             By <a class="post-author" href="#">Eric Ferraiuolo</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
@@ -96,6 +91,7 @@
                         </p>
                     </div>
                 </section>
+                {% endfor %}
 
                 <section class="post">
                     <header class="post-header">
