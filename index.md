@@ -34,7 +34,7 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="pure-button" href="http://purecss.io">Index</a>
+                        <a class="pure-button" href={{ site.url }}>Index</a>
                     </li>
                     <li class="nav-item">
                         <a class="pure-button" href="http://yuilibrary.com">Catégories</a>
@@ -78,7 +78,7 @@
                     <header class="post-header">
                         <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar" src="img/common/ericf-avatar.png">
 
-                        <a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
+                        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 						<a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
