@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
-    <title>Blog &ndash; Layout Examples &ndash; Pure</title>
+    <title>{{ site.title }}</title>
     
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
     
@@ -78,7 +78,8 @@
                     <header class="post-header">
                         <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar" src="img/common/ericf-avatar.png">
 
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        <h2 class="post-title">{{ post.title }}</h2>
+						<a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
                             Par <a href="#" class="post-author">{{ site.author }}</a> sous <a class="post-category post-category-design" href="#">{{ post.categories }}</a>
