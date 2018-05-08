@@ -81,7 +81,7 @@
                         <a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
-                            Par {{ site.author }} sous <a class="post-category post-category-js" href=#>{{ page.post.categories }}</a>
+                            By <a href="#" class="post-author">{{ site.author }}</a> under <a class="post-category post-category-design" href="#">{{ post.categories }}</a> <a class="post-category post-category-pure" href="#">Pure</a>
                         </p>
                     </header>
 
