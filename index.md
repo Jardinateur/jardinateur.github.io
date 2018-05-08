@@ -78,7 +78,7 @@
                     <header class="post-header">
                         <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar" src="img/common/ericf-avatar.png">
 
-                        <h2 class="post-title">{{ post.title }}</h2>
+                        <h2 class="post-title"><a href="{{ post.url }}"></a>{{ post.title }}</h2>
 						<a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
