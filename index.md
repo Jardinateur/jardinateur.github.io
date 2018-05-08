@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,8 +28,8 @@
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
-            <h1 class="brand-title">{{site.name}}</h1>
-            <h2 class="brand-tagline">{{site.description}}</h2>
+            <h1 class="brand-title">{{ site.name }}</h1>
+            <h2 class="brand-tagline">{{ site.description }}</h2>
 
             <nav class="nav">
                 <ul class="nav-list">
@@ -81,13 +81,13 @@
                         <a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
-                            By <a class="post-author" href="#">Eric Ferraiuolo</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
+                            Par <a class="post-author" href="#">{{ site.author}} </a> under <a class="post-category post-category-js" href="#">JavaScript</a>
                         </p>
                     </header>
 
                     <div class="post-description">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            {{ post.body }}
                         </p>
                     </div>
                 </section>
