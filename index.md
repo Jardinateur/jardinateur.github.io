@@ -48,7 +48,7 @@
         <div>
             <!-- A wrapper for all the blog posts -->
             <div class="posts">
-                <h1 class="content-subhead">Pinned Post</h1>
+                <h1 class="content-subhead">Articles en vedette</h1>
 
                 <!-- A single blog post -->
                 <section class="post">
@@ -81,7 +81,7 @@
                         <a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
-                            By <a href="#" class="post-author">{{ site.author }}</a> under <a class="post-category post-category-design" href="#">{{ post.categories }}</a> <a class="post-category post-category-pure" href="#">Pure</a>
+                            Par <a href="#" class="post-author">{{ site.author }}</a> sous <a class="post-category post-category-design" href="#">{{ post.categories }}</a>
                         </p>
                     </header>
 
