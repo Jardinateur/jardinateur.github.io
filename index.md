@@ -87,7 +87,7 @@
 
                     <div class="post-description">
                         <p>
-                            {{ page.post.content }}
+                            {{ page.description }}
                         </p>
                     </div>
                 </section>
