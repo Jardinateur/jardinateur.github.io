@@ -34,10 +34,10 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="pure-button" href="http://purecss.io">Pure</a>
+                        <a class="pure-button" href="http://purecss.io">Index</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="http://yuilibrary.com">YUI Library</a>
+                        <a class="pure-button" href="http://yuilibrary.com">Catégories</a>
                     </li>
                 </ul>
             </nav>
@@ -81,7 +81,7 @@
                         <a href="{{ post.url }}">{{ post.title }}</a>
 
                         <p class="post-meta">
-                            Par <a class="post-author" href="#">{{ site.author}} </a> under <a class="post-category post-category-js" href="#">JavaScript</a>
+                            Par <a class="post-author" href="#">{{ site.author}} </a> sous <a class="post-category post-category-js" href={{ post.category }}>{{ post.category }}</a>
                         </p>
                     </header>
 
