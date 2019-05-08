@@ -1,3 +1,5 @@
 name: Le Jardinateur
 description: Le simple blog de l'univers du Jardinateur
 author: Kevie Krutz
+
+theme: jekyll-theme-minimal
